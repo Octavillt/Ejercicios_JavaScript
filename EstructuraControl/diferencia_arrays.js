@@ -1,5 +1,9 @@
 /*
-Creará un programa que tomará dos listas de números enteros, a y b. Cada lista constará de 3 enteros positivos arriba de 0, que representan las dimensiones de los paralelepípedos a y b. Debes encontrar la diferencia de los volúmenes de los paralelepípedos sin importar cuál es mayor. Por ejemplo, si los parámetros pasados son ([2, 2, 3], [5, 4, 1]), el volumen de a es 12 y el volumen de b es 20. Por lo tanto, la función debería devolver 8. Su función se probará con ejemplos prefabricados y aleatorios. Si puede, intente escribirlo en una línea de código
+Creará un programa que tomará dos listas de números enteros, a y b. Cada lista constará de 3 enteros positivos arriba de 0, 
+que representan las dimensiones de los paralelepípedos a y b. Debes encontrar la diferencia de los volúmenes de los paralelepípedos 
+sin importar cuál es mayor. Por ejemplo, si los parámetros pasados son ([2, 2, 3], [5, 4, 1]), el volumen de a es 12 
+y el volumen de b es 20. Por lo tanto, la función debería devolver 8. Su función se probará con ejemplos prefabricados y aleatorios. 
+Si puede, intente escribirlo en una línea de código
 */
 
 function findDifference(a, b) {
