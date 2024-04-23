@@ -33,3 +33,11 @@ function obtenerEdad(cadena) {
 
 console.log(obtenerEdad("8 años")); // salida esperada: 10
 console.log(obtenerEdad("3 año")); // salida esperada: 3
+
+// Otra Manera de Hacerlo con la Función parseInt y split
+function getAge(inputString) {
+  let separete = inputString.split("");
+  let separeNum = parseInt(separete[0]);
+  return (separeNum <= 9 ) ? separeNum : false;
+}
+console.log(getAge('4 Años'));
